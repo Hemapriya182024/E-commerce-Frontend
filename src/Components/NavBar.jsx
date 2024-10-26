@@ -4,6 +4,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { ShopContext } from '../Context/ShopContext';
 import { useContext } from 'react';
 
+
 const NavBar = () => {
 
   const [visible, SetVisible] = useState(false);
@@ -11,12 +12,13 @@ const NavBar = () => {
 
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
-     <Link to={'/'}>
-      <div className="flex items-center space-x-3 hover:scale-105 transition-transform duration-300">
-        <img src={assets.logo} alt="SheCart Logo" className="w-16 h-auto" />
-        <span className="text-2xl font-semibold text-pink-600 ruge-boogie-regular">SheCart</span>
-      </div>
-      </Link>
+    <Link to={'/'}>
+  <div className="flex items-center space-x-1 hover:scale-105 transition-transform duration-300">
+    <img src={assets.logo} alt="SheCart Logo" className="w-10 h-auto " />
+    <span className="text-2xl font-semibold text-black ruge-boogie-regular">StyleSwap</span>
+  </div>
+</Link>
+
 
 
       <ul className='hidden sm:flex gap-5 text-sm text-gray-500'>
