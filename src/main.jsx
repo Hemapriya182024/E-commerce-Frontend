@@ -7,11 +7,11 @@ import { BrowserRouter } from 'react-router-dom'
 import ShopContextProvider from './Context/ShopContext.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  
     <BrowserRouter>
       <ShopContextProvider>
         <App />
       </ShopContextProvider>
     </BrowserRouter>
-  </React.StrictMode>
+ 
 );
