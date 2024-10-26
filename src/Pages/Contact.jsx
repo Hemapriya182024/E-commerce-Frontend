@@ -24,7 +24,7 @@ function Contact() {
           <p className="text-gray-500 ">
             Tel : (415) 555-0234
             <br />
-            Email : webdeveloper.srinu@gmail.com
+            Email : web@gmail.com
           </p>
           <p>Careers at Forever</p>
           <p>Learn more about our team and job openings.</p>
